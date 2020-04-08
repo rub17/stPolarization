@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		95C19CFBC88B4EBEA052B67D /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B252F1FB5DE44D9980D381B7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				B029846376B042008181D7D1 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		BA512823477142C9979EA511 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9BCD9AA25EAB41C09B270AD3 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				77795A8DE1884224802B39F3 /* CMake Rules */,
+			);
+			dependencies = (
+				38511A1CE94E4090AE817F9D /* PBXTargetDependency */,
+				289999DB341844B6AC3F6540 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0B060FB3BE7A4A66B31DBB43 /* /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/stPolManip/stPolManip.h */ = {isa = PBXBuildFile; fileRef = DA5385F53C6642679FA12DF8 /* /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/stPolManip/stPolManip.h */; };
+		3953CDA336F24160829D280F /* /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/src/stPolManip.cpp */ = {isa = PBXBuildFile; fileRef = 93E44612E56E4E9492D7ED92 /* /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/src/stPolManip.cpp */; };
+		761E8F846DE349798B534B99 /* /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 6B478C2AD1FC41FFB66AC2A0 /* /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/CMakeLists.txt */; };
+		A5FA247A037840DE96AAAE1F /* /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/src/main.cpp */ = {isa = PBXBuildFile; fileRef = 4573D5CCAFD04C83B054C578 /* /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/src/main.cpp */; };
+		B208A84AA0C149BF85FE5BC7 /* /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/stPolManip/protosInput.h */ = {isa = PBXBuildFile; fileRef = D27594A170264B9DADE6DC03 /* /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/stPolManip/protosInput.h */; };
+		F34E284528554EAEACAAACE8 /* /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/src/protosInput.cpp */ = {isa = PBXBuildFile; fileRef = D0DA0305591749BAA4153744 /* /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/src/protosInput.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		14C8140B85674B858E49A386 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		5CB32DA7CD494C51B91C9F04 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		60AFDB31524144638A0DCD4D /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		AE9D0F7B64C044C68F962798 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		1270B30878A145E79D0BAEC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63B0910E9CD44B7091DBC641 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FBFA66FB2434C74B5EC125E;
+			remoteInfo = stPolManip;
+		};
+		AF36DB23E0DE4395990EFDAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63B0910E9CD44B7091DBC641 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95C19CFBC88B4EBEA052B67D;
+			remoteInfo = ZERO_CHECK;
+		};
+		ED51DE2F346F4C69A45450BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63B0910E9CD44B7091DBC641 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95C19CFBC88B4EBEA052B67D;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0991043A22BB43E59A5A1EAF /* /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		35CA5203E3834F91BD1B5763 /* stPolManip */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = stPolManip; sourceTree = BUILT_PRODUCTS_DIR; };
+		4573D5CCAFD04C83B054C578 /* /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		6B478C2AD1FC41FFB66AC2A0 /* /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		93E44612E56E4E9492D7ED92 /* /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/src/stPolManip.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stPolManip.cpp; path = src/stPolManip.cpp; sourceTree = SOURCE_ROOT; };
+		D0DA0305591749BAA4153744 /* /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/src/protosInput.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = protosInput.cpp; path = src/protosInput.cpp; sourceTree = SOURCE_ROOT; };
+		D27594A170264B9DADE6DC03 /* /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/stPolManip/protosInput.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = protosInput.h; path = stPolManip/protosInput.h; sourceTree = SOURCE_ROOT; };
+		DA5385F53C6642679FA12DF8 /* /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/stPolManip/stPolManip.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stPolManip.h; path = stPolManip/stPolManip.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		3283E51ED3A94890B6EC165B /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				D27594A170264B9DADE6DC03 /* /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/stPolManip/protosInput.h */,
+				DA5385F53C6642679FA12DF8 /* /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/stPolManip/stPolManip.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		35A228CE168645BA82C5D270 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35CA5203E3834F91BD1B5763 /* stPolManip */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4624070568C34578967155CD /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		51A37DC95485410E91102C4F /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				4573D5CCAFD04C83B054C578 /* /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/src/main.cpp */,
+				D0DA0305591749BAA4153744 /* /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/src/protosInput.cpp */,
+				93E44612E56E4E9492D7ED92 /* /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/src/stPolManip.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		6D0CA9475DE049E8BAC365FA = {
+			isa = PBXGroup;
+			children = (
+				EB089D7EFA284CEF8F49A88B /* stPolManip */,
+				93A4B54E924941D2AA0E7B37 /* ALL_BUILD */,
+				35A228CE168645BA82C5D270 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93A4B54E924941D2AA0E7B37 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				4624070568C34578967155CD /* CMake Rules */,
+				0991043A22BB43E59A5A1EAF /* /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		EB089D7EFA284CEF8F49A88B /* stPolManip */ = {
+			isa = PBXGroup;
+			children = (
+				51A37DC95485410E91102C4F /* Source Files */,
+				3283E51ED3A94890B6EC165B /* Header Files */,
+				6B478C2AD1FC41FFB66AC2A0 /* /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/CMakeLists.txt */,
+			);
+			name = stPolManip;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FBFA66FB2434C74B5EC125E /* stPolManip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ADA821DA9F04597AF58D4F0 /* Build configuration list for PBXNativeTarget "stPolManip" */;
+			buildPhases = (
+				F9546E04207F402F8416E3CF /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAE2857921164414981EFB4B /* PBXTargetDependency */,
+			);
+			name = stPolManip;
+			productName = stPolManip;
+			productReference = 35CA5203E3834F91BD1B5763 /* stPolManip */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63B0910E9CD44B7091DBC641 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = 4948153DC6564415977BB2F3 /* Build configuration list for PBXProject "stPolManip" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				60AFDB31524144638A0DCD4D /* Debug */,
+				5CB32DA7CD494C51B91C9F04 /* Release */,
+				AE9D0F7B64C044C68F962798 /* MinSizeRel */,
+				14C8140B85674B858E49A386 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 6D0CA9475DE049E8BAC365FA;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				BA512823477142C9979EA511 /* ALL_BUILD */,
+				95C19CFBC88B4EBEA052B67D /* ZERO_CHECK */,
+				3FBFA66FB2434C74B5EC125E /* stPolManip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4ABEF8892C5C4293B75321A9 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		77795A8DE1884224802B39F3 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/xCodeBuild -f /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/xCodeBuild/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		B029846376B042008181D7D1 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/xCodeBuild -f /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/xCodeBuild/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		DBE87E3B539B4ED4890D44A3 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9546E04207F402F8416E3CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5FA247A037840DE96AAAE1F /* /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/src/main.cpp */,
+				F34E284528554EAEACAAACE8 /* /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/src/protosInput.cpp */,
+				3953CDA336F24160829D280F /* /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/src/stPolManip.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		289999DB341844B6AC3F6540 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95C19CFBC88B4EBEA052B67D /* ZERO_CHECK */;
+			targetProxy = AF36DB23E0DE4395990EFDAB /* PBXContainerItemProxy */;
+		};
+		38511A1CE94E4090AE817F9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FBFA66FB2434C74B5EC125E /* stPolManip */;
+			targetProxy = 1270B30878A145E79D0BAEC4 /* PBXContainerItemProxy */;
+		};
+		CAE2857921164414981EFB4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95C19CFBC88B4EBEA052B67D /* ZERO_CHECK */;
+			targetProxy = ED51DE2F346F4C69A45450BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		133B29D46914480C96CDF101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",R__HAVE_CONFIG);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/root,/Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/stPolManip);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib/root;
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/root/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib/root";
+				OTHER_CPLUSPLUSFLAGS = "  -m64 -pipe -fsigned-char -fno-common -Qunused-arguments -pthread -std=c++11 -stdlib=libc++ -DR__HAVE_CONFIG     ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/root/libCore.so /usr/local/lib/root/libImt.so /usr/local/lib/root/libRIO.so /usr/local/lib/root/libNet.so /usr/local/lib/root/libHist.so /usr/local/lib/root/libGraf.so /usr/local/lib/root/libGraf3d.so /usr/local/lib/root/libGpad.so /usr/local/lib/root/libROOTDataFrame.so /usr/local/lib/root/libTree.so /usr/local/lib/root/libTreePlayer.so /usr/local/lib/root/libRint.so /usr/local/lib/root/libPostscript.so /usr/local/lib/root/libMatrix.so /usr/local/lib/root/libPhysics.so /usr/local/lib/root/libMathCore.so /usr/local/lib/root/libThread.so /usr/local/lib/root/libMultiProc.so";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = stPolManip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/xCodeBuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		1C502D0C18DC41EBBEDBCF56 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/xCodeBuild/build;
+			};
+			name = MinSizeRel;
+		};
+		25A571BACFB048FBAAD7348E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/xCodeBuild/build;
+			};
+			name = Debug;
+		};
+		345A6DB97A654BB5A99D9262 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/xCodeBuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3BB47858310A49F0A1CA8217 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/xCodeBuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5273BD856EF2419689C3E614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/xCodeBuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		71249F5A23FF431A984109D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/xCodeBuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		97036DA12FC4480F8B18A0C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",R__HAVE_CONFIG);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/root,/Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/stPolManip);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib/root;
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/root/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib/root";
+				OTHER_CPLUSPLUSFLAGS = "  -m64 -pipe -fsigned-char -fno-common -Qunused-arguments -pthread -std=c++11 -stdlib=libc++ -DR__HAVE_CONFIG     -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/root/libCore.so /usr/local/lib/root/libImt.so /usr/local/lib/root/libRIO.so /usr/local/lib/root/libNet.so /usr/local/lib/root/libHist.so /usr/local/lib/root/libGraf.so /usr/local/lib/root/libGraf3d.so /usr/local/lib/root/libGpad.so /usr/local/lib/root/libROOTDataFrame.so /usr/local/lib/root/libTree.so /usr/local/lib/root/libTreePlayer.so /usr/local/lib/root/libRint.so /usr/local/lib/root/libPostscript.so /usr/local/lib/root/libMatrix.so /usr/local/lib/root/libPhysics.so /usr/local/lib/root/libMathCore.so /usr/local/lib/root/libThread.so /usr/local/lib/root/libMultiProc.so";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = stPolManip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/xCodeBuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		9809B5C8951D4993AA1C5A5A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/xCodeBuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9C51C5C17E264BE78C97EC78 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",R__HAVE_CONFIG);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/root,/Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/stPolManip);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib/root;
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/root/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib/root";
+				OTHER_CPLUSPLUSFLAGS = "  -m64 -pipe -fsigned-char -fno-common -Qunused-arguments -pthread -std=c++11 -stdlib=libc++ -DR__HAVE_CONFIG     -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/root/libCore.so /usr/local/lib/root/libImt.so /usr/local/lib/root/libRIO.so /usr/local/lib/root/libNet.so /usr/local/lib/root/libHist.so /usr/local/lib/root/libGraf.so /usr/local/lib/root/libGraf3d.so /usr/local/lib/root/libGpad.so /usr/local/lib/root/libROOTDataFrame.so /usr/local/lib/root/libTree.so /usr/local/lib/root/libTreePlayer.so /usr/local/lib/root/libRint.so /usr/local/lib/root/libPostscript.so /usr/local/lib/root/libMatrix.so /usr/local/lib/root/libPhysics.so /usr/local/lib/root/libMathCore.so /usr/local/lib/root/libThread.so /usr/local/lib/root/libMultiProc.so";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = stPolManip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/xCodeBuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A4D9B120ABFB47B3B7061D2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/xCodeBuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		B09138F308C04B95BCA4EAFA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",R__HAVE_CONFIG);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/root,/Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/stPolManip);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib/root;
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/root/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib/root";
+				OTHER_CPLUSPLUSFLAGS = "  -m64 -pipe -fsigned-char -fno-common -Qunused-arguments -pthread -std=c++11 -stdlib=libc++ -DR__HAVE_CONFIG        -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/root/libCore.so /usr/local/lib/root/libImt.so /usr/local/lib/root/libRIO.so /usr/local/lib/root/libNet.so /usr/local/lib/root/libHist.so /usr/local/lib/root/libGraf.so /usr/local/lib/root/libGraf3d.so /usr/local/lib/root/libGpad.so /usr/local/lib/root/libROOTDataFrame.so /usr/local/lib/root/libTree.so /usr/local/lib/root/libTreePlayer.so /usr/local/lib/root/libRint.so /usr/local/lib/root/libPostscript.so /usr/local/lib/root/libMatrix.so /usr/local/lib/root/libPhysics.so /usr/local/lib/root/libMathCore.so /usr/local/lib/root/libThread.so /usr/local/lib/root/libMultiProc.so";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = stPolManip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/xCodeBuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B1C7ECE46DA8409D90C4BB5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/xCodeBuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		D73C33B9C253436D9CE426F1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/xCodeBuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E7CDE4F4037B4313B6E1E480 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/xCodeBuild/build;
+			};
+			name = RelWithDebInfo;
+		};
+		F16A8E7C829941DD8E40C14B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/xCodeBuild/build;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4948153DC6564415977BB2F3 /* Build configuration list for PBXProject "stPolManip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25A571BACFB048FBAAD7348E /* Debug */,
+				F16A8E7C829941DD8E40C14B /* Release */,
+				1C502D0C18DC41EBBEDBCF56 /* MinSizeRel */,
+				E7CDE4F4037B4313B6E1E480 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5ADA821DA9F04597AF58D4F0 /* Build configuration list for PBXNativeTarget "stPolManip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				133B29D46914480C96CDF101 /* Debug */,
+				97036DA12FC4480F8B18A0C2 /* Release */,
+				9C51C5C17E264BE78C97EC78 /* MinSizeRel */,
+				B09138F308C04B95BCA4EAFA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9BCD9AA25EAB41C09B270AD3 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4D9B120ABFB47B3B7061D2D /* Debug */,
+				71249F5A23FF431A984109D5 /* Release */,
+				D73C33B9C253436D9CE426F1 /* MinSizeRel */,
+				345A6DB97A654BB5A99D9262 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B252F1FB5DE44D9980D381B7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1C7ECE46DA8409D90C4BB5C /* Debug */,
+				5273BD856EF2419689C3E614 /* Release */,
+				9809B5C8951D4993AA1C5A5A /* MinSizeRel */,
+				3BB47858310A49F0A1CA8217 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63B0910E9CD44B7091DBC641 /* Project object */;
+}

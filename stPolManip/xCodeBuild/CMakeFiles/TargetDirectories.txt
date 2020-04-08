@@ -1,0 +1,3 @@
+/Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/xCodeBuild/CMakeFiles/stPolManip.dir
+/Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/xCodeBuild/CMakeFiles/ALL_BUILD.dir
+/Users/runyu/Documents/Git/CERN/stPolarization/stPolManip/xCodeBuild/CMakeFiles/ZERO_CHECK.dir

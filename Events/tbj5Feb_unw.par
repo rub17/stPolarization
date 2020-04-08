@@ -1,0 +1,10 @@
+ 4                               ! Process code
+13000.                           ! CM energy
+172.50  1.45  4.95   125.0       ! mt, Gt, mb, MH
+0    0.0                         ! Matching
+ 1.000   0.000   0.000   0.000   ! Re VL, Re VR, Re gL, Re gR
+ 0.000   0.000   0.000   0.000   ! Im VL, Im VR, Im gL, Im gR
+    1                            ! Initial random seed
+   55238                         ! unweighted events
+0.444424E+02   0.117348E-02      ! t cross section and error
+0.255664E+02   0.921593E-03      ! tbar cross section and error
